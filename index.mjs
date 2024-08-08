@@ -66,7 +66,7 @@ import simpleGit from 'simple-git';
 import random from 'random';
 
 const FILE_PATH = './data.json';
-const MAX_COMMITS_PER_DAY = 11; // Maximum number of commits per day
+const MAX_COMMITS_PER_DAY = 13; // Maximum number of commits per day
 
 const makeCommitsInOneDay = (n) => {
   if (n <= 0) return simpleGit().push(); // Exit condition for when no more commits are needed
