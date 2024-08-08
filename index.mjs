@@ -9,7 +9,7 @@ const makeCommit = n => {
   if (n === 0) return simpleGit().push();
   const x = random.int(0, 54);
   const y = random.int(0, 6);
-  const DATE = moment().subtract(1, 'y').add(1, 'd')
+  const DATE = moment().subtract(2, 'y').add(1, 'd')
     .add(x, 'w').add(y, 'd').format();
   const data = {
     date: DATE
@@ -21,4 +21,4 @@ const makeCommit = n => {
   });
 }
 
-makeCommit(5);
+makeCommit(50);
