@@ -1,4 +1,4 @@
 *.mjs
 *.json
-.data.json
-.index.mjs
+data.json
+index.mjs
